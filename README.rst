@@ -54,7 +54,8 @@ GCP Cloud Monitoring can be in use for monitoring GCP services: Cloud Run, Cloud
 
 This project has a concept that the developers and client have minimum access to the GCP environment.
 
-![Full Version](https://github.com/Andr1500/notejam_python3.8/blob/master/notejam_1.png?raw=true)
+![Full Version](https://github.com/Andr1500/notejam_python3.8/blob/master/Notejam_full.png?raw=true)
+
 
 
 
