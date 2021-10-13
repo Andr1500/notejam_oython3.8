@@ -19,7 +19,7 @@ What was done:
 
 4. Create terraform script(main.tf), init terraform and run this script. As the output of the work Terraform script in output is the link to the built app.
 
- 
+ ![plot](./Andr1500/notejam_python3.8/blob/master/notejam_1.png)
 
 Posibility of improwing this app for satisfy requirements:
 
@@ -58,6 +58,8 @@ It is possible to separate environments with creation different projects in GCP 
 GCP Cloud Monitoring can be in use for monitoring GCP services: Cloud Run, Cloud Container Registry, Cloud SQL, load Balanser, SQL Backups, Cloud Storage. Cloud Monitoring can be enough for observability metrics and logs. Visualization for the customer can be done with Grafana tool which can be integrated with Cloud Monitoring.
 
 This project has a concept that the developers and client have minimum access to the GCP environment.
+
+![plot](./Andr1500/notejam_python3.8/blob/master/Notejam_full.png)
 
 
 
