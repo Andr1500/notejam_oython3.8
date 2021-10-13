@@ -2,11 +2,6 @@
 Notejam: Flask
 **************
 
-This application was modifed for work with Python3.8
-
-All pipeline was built for development environment: developer making push into GitHub repository, next this repository clone into Google Cloud Shell, next build Docker image and push this image to Container registry, next in Google Cloud shell running main.tf we can create necessary environment:deploying image to Cloud Run,  creating and enabling public access to the service. 
-
-
 
 This project has done a short part of requirements but below will be schema and information about the possibility to build the project related to all requirements.
 
@@ -19,7 +14,7 @@ What was done:
 
 4. Create terraform script(main.tf), init terraform and run this script. As the output of the work Terraform script in output is the link to the built app.
 
- ![alt text](https://github.com/Andr1500/notejam_python3.8/blob/master/notejam_1.png)
+ ![alt text](https://github.com/Andr1500/notejam_python3.8/blob/master/notejam_1.png?raw=true "Current version")
 
 Posibility of improwing this app for satisfy requirements:
 
@@ -59,7 +54,7 @@ GCP Cloud Monitoring can be in use for monitoring GCP services: Cloud Run, Cloud
 
 This project has a concept that the developers and client have minimum access to the GCP environment.
 
-![alt text](https://github.com/Andr1500/notejam_python3.8/blob/master/Notejam_full.png)
+![alt text](https://github.com/Andr1500/notejam_python3.8/blob/master/Notejam_full.png?raw=true "Full version")
 
 
 
