@@ -14,7 +14,7 @@ What was done:
 
 4. Create terraform script(main.tf), init terraform and run this script. As the output of the work Terraform script in output is the link to the built app.
 
- ![Current Version](https://github.com/Andr1500/notejam_python3.8/blob/master/notejam_1.png)
+ <img src="https://github.com/Andr1500/notejam_python3.8/blob/master/notejam_1.png" alt="Current Version"/>)
 
 Posibility of improwing this app for satisfy requirements:
 
@@ -54,7 +54,7 @@ GCP Cloud Monitoring can be in use for monitoring GCP services: Cloud Run, Cloud
 
 This project has a concept that the developers and client have minimum access to the GCP environment.
 
-![FullVersion](https://github.com/Andr1500/notejam_python3.8/blob/master/Notejam_full.png)
+<img src="https://github.com/Andr1500/notejam_python3.8/blob/master/Notejam_full.png" alt="Full Version"/>
 
 
 
