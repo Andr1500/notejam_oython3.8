@@ -1,16 +1,16 @@
 #Define Cloud Provider
 provider "google" {
-  project = vars.gcp_project
+  project = var.gcp_project
 }
 
 # Deploy image to Cloud Run
 resource "google_cloud_run_service" "mywebapp" {
   name     = "mywebapp"
-  location = vars.gcp_region
+  location = var.gcp_region
   template {
     spec {
       containers {
-        image = "gcr.io/${vars.gcp_region}/webapp"
+        image = "gcr.io/${var.gcp_region}/webapp"
       }
     }
   }
