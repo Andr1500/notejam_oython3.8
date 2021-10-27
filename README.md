@@ -16,6 +16,7 @@ What was done:
 
 How to run this project:
 1. Init Google Cloud project in Cloud Shell:
+
 *gcloud config set project <project_ID>*
 
 2. Clone this repository into Cloud Shell.
@@ -23,16 +24,21 @@ How to run this project:
 3. Go to the cloned repository dorectory.
 
 4. Build Docker container:
+
 *docker build -t webapp .*
 
 5. Push the Docker container to Cloud Registry:
+
 *docker push gcr.io/project_ID/webapp:latest*
 
 6. Go to the directory terraform_files and init terraform:
+
 *terraform init*
 
 7. Build the infrastructure with terraform:
+
 *terraform plan*
+
 *terraform apply*
 
 ![Current Version](https://github.com/Andr1500/notejam_python3.8/blob/master/documentation/notejam_1.png?raw=true)
