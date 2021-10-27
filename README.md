@@ -14,7 +14,28 @@ What was done:
 
 4. Create terraform script(main.tf), init terraform and run this script. As the output of the work Terraform script in output is the link to the built app.
 
-![Current Version](https://github.com/Andr1500/notejam_python3.8/blob/master/notejam_1.png?raw=true)
+How to run this project:
+1. Init Google Cloud project in Cloud Shell:
+* gcloud config set project <project_ID> *
+
+2. Clone this repository into Cloud Shell.
+
+3. Go to the cloned repository dorectory.
+
+4. Build Docker container:
+* docker build -t notejam . *
+
+5. Push the Docker container to Cloud Registry:
+* docker push gcr.io/project_ID/webapp:latest *
+
+6. Go to the directory terraform_files and init terraform:
+* terraform init *
+
+7. Build the infrastructure with terraform:
+* terraform plan *
+* terraform apply *
+
+![Current Version](https://github.com/Andr1500/notejam_python3.8/blob/master/documentation/notejam_1.png?raw=true)
 
 Posibility of improwing this app for satisfy requirements:
 
@@ -54,4 +75,4 @@ GCP Cloud Monitoring can be in use for monitoring GCP services: Cloud Run, Cloud
 
 This project has a concept that the developers and client have minimum access to the GCP environment.
 
-![Full Version](https://github.com/Andr1500/notejam_python3.8/blob/master/Notejam_full.png?raw=true)
+![Full Version](https://github.com/Andr1500/notejam_python3.8/blob/master/documentation/Notejam_full.png?raw=true)
