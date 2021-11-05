@@ -14,7 +14,9 @@ What was done:
 
 4. Create terraform script(main.tf), init terraform and run this script. As the output of the work Terraform script in output is the link to the built app.
 
+**************
 How to run this project:
+**************
 1. Init Google Cloud project in Cloud Shell:
 
 *gcloud config set project <project_ID>*
@@ -27,15 +29,19 @@ How to run this project:
 
 *docker build -t webapp .*
 
-5. Push the Docker container to Cloud Registry:
+5. Make tag for the container:
+
+*docker tag  webapp gcr.io/project_ID/webapp*
+
+6. Push the Docker container to Cloud Registry:
 
 *docker push gcr.io/project_ID/webapp:latest*
 
-6. Go to the directory terraform_files and init terraform:
+7. Go to the directory terraform_files and init terraform:
 
 *terraform init*
 
-7. Build the infrastructure with terraform:
+8. Build the infrastructure with terraform:
 
 *terraform plan*
 
